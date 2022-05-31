@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PrivacyPolicy">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This Privacy Policy describes how Fun Games protects your privacy when you use Apps developed by us. It covers what information about you or associated with you are collected, used and disclosed by Fun Games.
+ \n What information does the App collect?
+ \n When you use the our Apps, we may automatically collect the following types of information to implement significant features and provide you better experience:
+\n \n
+ \n Device Information: We collect following information to provide our services, implement app features, and improve the app performance.
+\n We collect the following information:
+ \n The platform type (Android);
+ \n The operating system version;
+\n  The number of clicks on the app feature;
+ \n The device model;
+ \n The language you use for the device system;
+ \n The mcc;
+ \n The manufacturer of the device;
+ \n The version code of apps you are using;
+ \n The version name of apps you are using;
+ \n The package name of apps you are using;
+ \n The time of your phone;
+ \n The screen resolution;
+\n Google Advertising ID: This is used in the third-party advertising network to provide personalized ads and prevent inappropriate advertisement content.
+\n Support Related Information: If you communicate with us via our support section or via email, we may collect your email address, name and any information voluntarily submitted by you in connection with such support. Such information will only be used to provide you with support services.
+\n How We Use Information We Collect?
+ \n We use the information we collect from the App to provide you better features and experience. We also use the data to measure the performance and improve the App. We do not sell, trade, or otherwise transfer to outside parties your personal information.
+ \n \n
+ \n Opt-out of personalized advertising
+ \n To show you personalized ads in the App we use specific advertising networks and their partners to deliver ads that are tailored to you based on a determination of your interests or characteristics. You can opt-out from customized ad experience at any time by checking the privacy settings of your android device and choosing “opt-out of interest-based ads”. When you prefer to opt-out, advertising networks will think about this choice as a withdrawal of consent to customized ads experience and they will show only non-personalized ads.
+ \n \n
+ \n Disclaimer
+ \n This application is being developed for educational purposes only to identify the country of origin of a certain application(s), we do not promote or force people to uninstall any of the application(s).
+  \n \n
+ \n Detecting the country of origin is based on the market research but we do not guarantee for any correct/wrong information, so users should act only at their own will.
+ Our application detects and shows the installed application name only. All trademarks and/or copyrights and/or patents are the property of their respective owners.
+ \n This is an educational category application only,  developers do not use it for commercial purposes.
+ \n Policy Updates
+ \n Our Privacy Policy may change from time to time. You are advised to check our Website regularly to view our most recent Privacy Policy. Your continued use of the Apps after we post the revised Privacy Policy constitutes your acceptance of the revised Privacy Policy.
+  \n\n
+ \n Contact us
+ If you have any questions or concerns about this Privacy Policy, please feel free to contact us at funyaariapps@gmail.com"/>
+
+    </ScrollView>
+</RelativeLayout>

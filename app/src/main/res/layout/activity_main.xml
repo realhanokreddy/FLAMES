@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbc2d"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your name:"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:id="@+id/name1"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="40dp"
+        />
+
+    <EditText
+        android:id="@+id/etname1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name1"
+        android:minHeight="60dp"
+        android:hint="Enter Name"
+        android:layout_marginStart="40dp"
+        android:inputType="text"
+        android:maxLength="25"
+        android:imeOptions="actionNext"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etname1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="Enter another name:"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etname2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name2"
+        android:minHeight="60dp"
+        android:hint="Enter Another Name"
+        android:layout_marginStart="40dp"
+        android:inputType="text"
+        android:maxLength="25"
+        android:imeOptions="actionDone"
+        android:padding="10dp" />
+    <Button
+        android:id="@+id/flames"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/etname2"
+        android:background="@drawable/circular_button"
+        android:backgroundTint="@color/black"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="FLAMES" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:id="@+id/flamesres"
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/flames"
+        android:layout_marginTop="50dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/flamesbar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/flames"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible" />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/flamesimg"
+        android:layout_below="@id/flamesres"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
